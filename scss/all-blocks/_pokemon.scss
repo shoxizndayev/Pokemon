@@ -1,0 +1,72 @@
+.pokemons__logo{
+    max-width: 610px;
+     width: 100%;
+     height: auto;
+}
+
+.pokemon__list{
+    list-style-type: none;
+    row-gap: 30px;
+}
+
+.pokemon__input{
+    width: 230px;
+    height: 30px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    outline: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.pokemon__button{
+    width: 246px;
+    height: 46px;
+    text-align: center;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    
+}
+
+.pokemon__heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000; 
+}
+
+.pokemon__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.weight__pokemon {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}

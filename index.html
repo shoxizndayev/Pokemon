@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css2/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="pokemon">
+        <div class="container text-center">
+
+            <img class="pokemons__logo mb-5"
+            src="./img/pokemon_logo.svg"
+            alt="Pokemons logo"
+            width="610"
+            height="225"
+            >
+
+            
+            <form class="pokemon__form">
+                <input class="pokemon__input col-3 mb-3"
+                type="text"
+                name="name"
+                placeholder="Name"
+                autocomplete="off"
+                required
+                >
+
+                <input class="pokemon__input col-3 mb-3"
+                type="text"
+                name="type"
+                placeholder="Type"
+                autocomplete="off"
+                required
+                >
+                
+                <input class="pokemon__input col-3 mb-3"
+                type="number"
+                name="weight"
+                placeholder="Weight"
+                autocomplete="off"
+                required
+                >
+
+                <input class="pokemon__input col-3 mb-3"
+                type="text"
+                name="img"
+                placeholder="URL:pokemon"
+                autocomplete="off"
+                required
+                >
+
+                <button class="pokemon__button mb-3" type="submit">
+                    Add new pokemon
+                </button>
+            </form>
+
+
+            <ul class="pokemon__list list-unstyled row"></ul>
+        </div>
+    </section>
+    
+
+    <script src="./js/pokemons.js"> </script>
+    <script src="./js/main.js"> </script>
+</body>
+</html>
